@@ -1,0 +1,71 @@
+.bg-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.detailed-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .detailed-card {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+    width: 80%;
+  }
+}
+
+.title {
+  color: #252627;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.input-card {
+  background-color: #f1f5f9;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.input-element {
+  width: 100%;
+  display: block;
+  border-width: 0px;
+  outline-width: 0px;
+  background-color: #f1f5f9;
+  font-size: 17px;
+}
+
+.search-icon {
+  width: 30px;
+  height: auto;
+}
+
+.destination-cards-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .destination-cards-list {
+    justify-content: flex-start;
+  }
+}
